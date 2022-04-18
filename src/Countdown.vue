@@ -37,7 +37,7 @@ const uuidv4 = require('uuid/v4');
 export default {
     name: 'vue3-flip-countdown',
     emits: ["timeElapsed"],
-    setup(props, {
+    async setup(props, {
         emit
     }) {
         const uuid = uuidv4();
@@ -195,6 +195,7 @@ export default {
         });
 
         onMounted(() => {
+            console.log('sa')
             if (diff.value !== 0) {
                 show.value = true;
             }
