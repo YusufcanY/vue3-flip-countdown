@@ -1,5 +1,5 @@
 {
-  "name": "git@github.com:YusufcanY/vue3-flip-countdown.git#master",
+  "name": "vue3-flip-countdown",
   "version": "0.1.4",
   "description": "Countdown timer with Flip Animation for Vue 3.x",
   "repository": {
